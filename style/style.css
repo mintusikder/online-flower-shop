@@ -165,6 +165,22 @@
   justify-content: center;
   gap: 20px;
 }
+/* Get The Latest Deals */
+.deals {
+  background-image: url("./Rectangle\ 9.png");
+  width: 80%;
+  height: 349px;
+  margin: 0 auto;
+  margin-bottom: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input{
+  padding: 12px;
+  border-radius: 5px;
+  border: 0;
+}
 @media screen and (max-width: 576px) {
   .hero-container {
     flex-direction: column;
@@ -183,7 +199,7 @@
   #deal {
     flex-direction: column;
   }
-  .instagram-img{
-      flex-direction: column;
+  .instagram-img {
+    flex-direction: column;
   }
 }

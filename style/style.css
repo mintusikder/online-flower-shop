@@ -89,6 +89,31 @@
   text-decoration-line: underline;
   margin-top: 14px;
 }
+.delivery {
+  width: 1440px;
+  height: 320px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  margin: 0 auto;
+  margin-bottom: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 76px;
+}
+.delivery-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.delivery-title{
+  color: rgba(39, 39, 39, 0.8);
+font-family: Lato;
+font-size: 16px;
+font-weight: 600;
+margin-top: 16px;
+}
 
 @media screen and (max-width: 576px) {
   .hero-container {
